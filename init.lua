@@ -15,4 +15,3 @@ vim.api.nvim_set_keymap('i', '<Right>', '<NOP>', { noremap = true })
 
 
 
-
