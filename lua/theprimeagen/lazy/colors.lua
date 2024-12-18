@@ -38,6 +38,7 @@ return {
             -- ColorMyPencils()
         end
     },
+
     {
         "ellisonleao/gruvbox.nvim",
         name = "gruvbox",
@@ -67,6 +68,7 @@ return {
             -- ColorMyPencils("gruvbox")
         end,
     },
+
     {
         "folke/tokyonight.nvim",
         config = function()
@@ -103,6 +105,5 @@ return {
             -- ColorMyPencils("rose-pine")  -- Set the colorscheme to rose-pine
         end
     },
-
 
 }

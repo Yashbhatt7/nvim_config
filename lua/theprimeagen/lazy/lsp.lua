@@ -29,6 +29,9 @@ return {
                 "lua_ls",
                 "gopls",
                 "rust_analyzer",
+                "ts_ls",
+                -- "codelldb";
+                "zls",
                 "clangd",
             },
             handlers = {
