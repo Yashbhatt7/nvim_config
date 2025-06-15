@@ -1,6 +1,6 @@
-require("theprimeagen.set")
-require("theprimeagen.remap")
-require("theprimeagen.lazy_init")
+require("wonderer.set")
+require("wonderer.remap")
+require("wonderer.lazy_init")
 
 -- DO.not
 -- DO NOT INCLUDE THIS
@@ -66,3 +66,13 @@ autocmd('LspAttach', {
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
+
+
+-- require("mason").setup()
+-- require("mason-lspconfig").setup {
+--     ensure_installed = {}, -- Avoid auto-installing zls
+--     automatic_installation = false,
+-- }
+--
+-- require("lspconfig").zls.setup {}
+

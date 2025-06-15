@@ -31,7 +31,9 @@ return {
                 "rust_analyzer",
                 "ts_ls",
                 -- "codelldb";
-                "zls",
+                -- "zls",
+                -- "pyright",
+                "pylsp",
                 "clangd",
             },
             handlers = {
