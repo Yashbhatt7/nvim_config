@@ -1,6 +1,12 @@
 return {
 
     {
+        'vyfor/cord.nvim',
+        build = ':Cord update',
+        -- opts = {}
+    },
+
+    {
         "nvim-lua/plenary.nvim",
         name = "plenary"
     },
